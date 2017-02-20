@@ -1,0 +1,63 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			input[type=radio]{
+				display: none;
+			}
+			input:cheked+label{
+				font-weight: 100;
+			}
+			.beauty:focus{
+				border:2px solid red;
+				outline: 2px solid red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form method="post">
+			<div>
+			
+			<label for="login">login</label>
+			<input name="login"id="login" class="beauty">
+			<input name="pass" type="password"class="beauty">
+			<label for="gender">Are you man?</label>
+			<input name="gender" value="1" type="checkbox" id="gender">
+			</div>
+			<div>
+				
+				<input type="radio" name="buhlo" id="vodka" value="1" checked>
+				<label for="vodka">Vodka</label>
+				
+				
+				<input type="radio" name="buhlo" id="pyvo" value="2">
+				<label for="pyvo">Pivo</label>
+				
+				<select name="country">
+					<option value="1">Ukraine</option>
+					<option value="2">UK</option>
+					<option value="3">France</option>
+				</select>
+				<input type="submit" value="ok">
+			</div>
+		</form>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
